@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>James Carroll Interactive CV</title>
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link id="theme-style" rel="stylesheet" href="ca2.css">
+
+    <!-- JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head> 
+
+<body>
+
+    <!-- Profile Picture -->
+    <div class="wrapper">
+        <div class="sidebar-wrapper">
+            <div class="profile-container">
+                <img class="profile rounded-circle mx-auto mb-2" src="job3.jpg" alt="prof" />
+                <h1 class="name">James Carroll</h1>
+                <h3 class="tagline">Support Associate</h3>
+            </div>
+
+        <!-- Summary Modal -->
+        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#summary-modal" id="modal-button">About Me</button>
+
+        <!-- Modal -->
+        <div id="summary-modal" class="modal hide fade" tabindex="1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Summary</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            I am an enthusiastic worker who enjoys being challenged and 
+                            learning as much as possible. I take on every task eagerly and with 
+                            an open mind no matter what I am appointed to. I take pride in what 
+                            I can accomplish by myself but also thrive in team situations 
+                            as I understand the importance of communication and teamwork. 
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Modal -->
+        <!-- Trigger the modal with a button -->
+        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#contact-modal" id="modal-button">Contact Information</button>
+
+        <!-- Modal -->
+        <div id="contact-modal" class="modal hide fade" tabindex="1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">My Platforms</h4>
+                    </div>
+                    <div class="modal-body">
+                            <a href="mailto: james-carroll@live.ie">Email: james-carroll@live.ie</a><br>
+                            <i class="fas fa-phone"></i><a href="tel: 0838334777">Phone: 0838334777</a><br>
+                            <i class="fab fa-linkedin-in"></i><a href=" https://www.linkedin.com/in/james-carrollTUD/" target="_blank">LinkedIn:<br> https://www.linkedin.com/in/james-carrollTUD/</a><br>
+                            <i class="fab fa-github"></i><a href="https://github.com/x00126177" target="_blank">GitHub:<br>https://github.com/x00126177</a><br>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+            
+            <!-- Unused Contact Information, modal doesnt work so this is backup -->
+            <!-- <div class="contact-container container-block">
+
+                <ul class="list-unstyled contact-list">
+                    <li class="contactinfo">Contact Information</li>
+                    <li class="email"><i class="fas fa-envelope"></i><a href="mailto: james-carroll@live.ie">Email: james-carroll@live.ie</a></li>
+                    <li class="phone"><i class="fas fa-phone"></i><a href="tel: 0838334777">Phone: 0838334777</a></li>
+                    <li class="Linkedin"><i class="fab fa-linkedin-in"></i><a href=" https://www.linkedin.com/in/james-carrollTUD/" target="_blank">LinkedIn:<br> https://www.linkedin.com/in/james-carrollTUD/</a></li>
+                    <li class="github"><i class="fab fa-github"></i><a href="https://github.com/x00126177" target="_blank">GitHub:<br>https://github.com/x00126177</a></li>
+                </ul>
+            </div> -->
+
+            
+
+            <!--START Technical info-->
+            <div class="tech-container container-block">
+                <h2 class="container-block-title">Technical Skills</h2>
+                    <div class="item">
+                        <h4 class="tech">Unix Scripting <img src="ball.png" style="width: 1em"><img src="ball.png" style="width: 1em"><img src="ball.png" style="width: 1em"><img src="ball.png" style="width: 1em"><img src="ball2.png" style="width: 1em"></h4>       
+                    </div>
+                    <div class="item">
+                        <h4 class="tech">Networking <img src="ball.png" style="width: 1em"><img src="ball.png" style="width: 1em"><img src="ball.png" style="width: 1em"><img src="ball.png" style="width: 1em"><img src="ball2.png" style="width: 1em"></h4>       
+                    </div>
+                    <div class="item">
+                        <h4 class="tech">R <img src="ball.png" style="width: 1em"><img src="ball.png" style="width: 1em"><img src="ball.png" style="width: 1em"><img src="ball.png" style="width: 1em"><img src="ball2.png" style="width: 1em"></h4>   
+                    </div>
+                    <div class="item">
+                        <h4 class="tech">Tableau   <img src="ball.png" style="width: 1em"><img src="ball.png" style="width: 1em"><img src="ball.png" style="width: 1em"><img src="ball.png" style="width: 1em"><img src="ball2.png" style="width: 1em"></h4>
+                    </div>
+                    <div class="item">
+                        <h4 class="tech">SQL <img src="ball.png" style="width: 1em"><img src="ball.png" style="width: 1em"><img src="ball.png" style="width: 1em"><img src="ball.png" style="width: 1em"><img src="ball2.png" style="width: 1em"></h4>
+                    </div>
+                    <div class="item">
+                        <h4 class="tech">NoSQL <img src="ball.png" style="width: 1em"><img src="ball.png" style="width: 1em"><img src="ball.png" style="width: 1em"><img src="ball2.png" style="width: 1em"><img src="ball2.png" style="width: 1em"></h4>
+                    </div>
+                    <div class="item">
+                        <h4 class="tech">HTML <img src="ball.png" style="width: 1em"><img src="ball.png" style="width: 1em"><img src="ball.png" style="width: 1em"><img src="ball2.png" style="width: 1em"><img src="ball2.png" style="width: 1em"></h4>
+                    </div>
+                    <div class="item">
+                        <h4 class="tech">Java <img src="ball.png" style="width: 1em"><img src="ball.png" style="width: 1em"><img src="ball.png" style="width: 1em"><img src="ball2.png" style="width: 1em"><img src="ball2.png" style="width: 1em"></h4>
+                    </div>
+                    <div class="item">
+                        <h4 class="tech">JavaScript <img src="ball.png" style="width: 1em"><img src="ball.png" style="width: 1em"><img src="ball.png" style="width: 1em"><img src="ball2.png" style="width: 1em"><img src="ball2.png" style="width: 1em"></h4>
+                    </div>
+                    <div class="item">
+                        <h4 class="tech">Python <img src="ball.png" style="width: 1em"><img src="ball.png" style="width: 1em"><img src="ball.png" style="width: 1em"><img src="ball2.png" style="width: 1em"><img src="ball2.png" style="width: 1em"></h4>
+                    </div>
+                    <div class="item">
+                        <h4 class="tech">C++ <img src="ball.png" style="width: 1em"><img src="ball.png" style="width: 1em"><img src="ball2.png" style="width: 1em"><img src="ball2.png" style="width: 1em"><img src="ball2.png" style="width: 1em"></h4>
+                    </div>
+            </div>
+            <!--END Technical info-->
+
+        </div>
+        
+        <div class="main-wrapper" >
+
+        <!-- Top Navigation-->
+            <nav id="navbar" class="navbar navbar-expand-lg">
+                <a class="navbar-brand" href="#">
+                    <img src="jc.png" alt="jc" id="jc">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse list-unstyled" id="navigation">
+                    <ul class="navbar-nav justify-content-center mr-auto">                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="#education">Education</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#experience">Experience</a>
+                        </li> 
+                        <li class="nav-item">
+                            <a class="nav-link" href="#interests">Interests</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            
+
+        <div class= "scrollable area" data-spy="scroll" data-target="#navbar" data-offset="0">
+            <!-- START Education -->
+            <section class="education section education-section" id="education">
+                <h1 class="section-title"><span class="icon-holder"><i class="fas fa-user"></i></span>Education</h1>
+                
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Technological University Dublin, Tallaght</h3>
+                            <div class="time">2016 - 2020</div>
+                        </div>
+                        <div class="subhead">Computing in IT Management</div>
+                        <div class="qualification">Bachelor of Science (Honours)</div>
+                        <div class="grades">
+                            <table style="width:100%">
+                                <tr>
+                                    <th>Year</th>
+                                    <th>GPA</th>
+                                    <th>Modules</th>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>3.13</td>
+                                    <td><div class="dropdown">
+                                            <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                              Modules
+                                            </button>
+                                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                                <a class="dropdown-item" href="#">Operation Research(A)</a>
+                                                <a class="dropdown-item" href="#">Architecture on the Public Cloud(A)</a>  
+                                                <a class="dropdown-item" href="#">Enterprise Performance Architecture(B+)</a>
+                                                <a class="dropdown-item" href="#">Social Media Analysis(B+)</a>
+                                                <a class="dropdown-item" href="#">Security for the Cloud and IoT(B)</a>
+                                                <a class="dropdown-item" href="#">Private Cloud Architecture(B)</a>
+                                              <a class="dropdown-item" href="#">IT Governance and Quality(B)</a>
+                                              <a class="dropdown-item" href="#">Cloud Architecture(B)</a>
+                                              <a class="dropdown-item" href="#">Interactive Media Design(B-)</a>
+                                              <a class="dropdown-item" href="#">Project - Golf Application Aid(B-)</a>
+                                              <a class="dropdown-item" href="#">Advanced Cloud Provisioning and Networking(B-)</a>
+                                              <a class="dropdown-item" href="#">Information Management(C+)</a>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>2.58</td>
+                                    <td>
+                                        <div class="dropdown">
+                                            <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                              Modules
+                                            </button>
+                                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                                <a class="dropdown-item" href="#">Advanced Routing and Switching</a>
+                                                <a class="dropdown-item" href="#">Cloud Distributed Services</a>
+                                                <a class="dropdown-item" href="#">Data Analytics</a>
+                                                <a class="dropdown-item" href="#">Advanced Databases</a>
+                                                <a class="dropdown-item" href="#">Operating Systems</a>
+                                                <a class="dropdown-item" href="#">Server Side Web Applications</a>
+                                            </div> <!-- Couldnt access 3rd year grades becuase the exam results website wasnt working -->
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>2.56</td>
+                                    <td>
+                                        <div class="dropdown">
+                                            <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            Modules
+                                            </button>
+                                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                                <a class="dropdown-item" href="#">Discrete Mathematics 2 (B+)</a>
+                                                <a class="dropdown-item" href="#">Information Security (B)</a>
+                                                <a class="dropdown-item" href="#">Software Quality Assurance and Testing (B)</a>
+                                                <a class="dropdown-item" href="#">Networking 2 (B)</a>
+                                                <a class="dropdown-item" href="#">Networking 1 (B)</a>
+                                                <a class="dropdown-item" href="#">Management Science (B-)</a>
+                                                <a class="dropdown-item" href="#">Project - Web Application (C+)</a>
+                                                <a class="dropdown-item" href="#">Database Design and Programming (C)</a>
+                                                <a class="dropdown-item" href="#">Web Design and Development (C)</a>
+                                                <a class="dropdown-item" href="#">IT Services Management (C)</a>
+                                                <a class="dropdown-item" href="#">Database Administration (C)</a>
+                                                <a class="dropdown-item" href="#">IT Scripting and Automation (D)</a>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>2.75</td>
+                                    <td>
+                                        <div class="dropdown">
+                                            <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            Modules
+                                            </button>
+                                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                                <a class="dropdown-item" href="#">Business & Information Systems (B+)</a>
+                                                <a class="dropdown-item" href="#">Statistics (B)</a>
+                                                <a class="dropdown-item" href="#">Database Fundamentals (B)</a>
+                                                <a class="dropdown-item" href="#">Software Development (B)</a>
+                                                <a class="dropdown-item" href="#">Fundamentals of Interface & Web Design (B)</a>
+                                                <a class="dropdown-item" href="#">Learning to Learn (B)</a>
+                                                <a class="dropdown-item" href="#">Computer Architecture (B-)</a>
+                                                <a class="dropdown-item" href="#">Discrete Mathematics 1 (B-)</a>
+                                                <a class="dropdown-item" href="#">Social Media Communications (C+)</a>
+                                                <a class="dropdown-item" href="#">Operating Systems Fundamentals (C+)</a>
+                                                <a class="dropdown-item" href="#">Software Development 2 (C)</a>
+                                                <a class="dropdown-item" href="#">Object Oriented System Analysis (C)</a>  
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Rathmines College</h3>
+                            <div class="time">2015 - 2016</div>
+                        </div>
+                        <div class="subhead">Computer Programming</div>
+                        <div class="qualification">Fetac QQI Level 5</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- END Education -->
+            
+            <!-- START Experience -->
+            <section class="experience section experiences-section" id="experience">
+                <h1 class="section-title"><span class="icon-holder"><i class="fas fa-briefcase"></i></span>Experience</h1>
+                
+                            
+                <!-- SAP -->
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">SAP</h3>
+                            <div class="time">June 2020 - Present</div>
+                        </div>
+
+                        <div class="subhead">
+                            Support Associate in the Centre of Expertise
+                        </div>
+                        
+                        <div class="detail">
+                            <p> 
+                                As a Support Associate I completed another SAP 
+                                qualification and was involved in multiple teams 
+                                to understand the company structure. I upskilled and 
+                                learned in-depth about the different cloud and 
+                                on-premise solutions SAP offers to new and previous 
+                                customers. I was involved in analysing customer systems 
+                                and provided reports on how to improve the performance 
+                                of these systems to optimize their states. 
+                                
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SAP -->
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">SAP Intern</h3>
+                            <div class="time">Feb 2019 - Aug 2019</div>
+                        </div>
+
+                        <div class="subhead">
+                            IT Technician in the Centre of Expertise
+                        </div>
+                        
+                        <div class="detail">
+                            <p>
+                            I was an intern at SAP as a member of the S/4HANA 
+                            Value Engineering Team where I was
+                            engaged in fulfilling services on customers systems. 
+                            Also during my time on this team, I
+                            completed four SAP qualifications, learned about 
+                            Manufacturing in great detail and
+                            completed an internal project where we developed an app 
+                            that was later presented to the
+                            management of the company.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- HALFORDS -->
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Halfords</h3>
+                            <div class="time">June 2017 - Jan 2019</div>
+                        </div>
+
+                        <div class="subhead">
+                                Customer Sales Representative and Car Parts Fitter
+                        </div>
+                        
+                        <div class="detail">
+                            <p>
+                                Advisor on in store products such as sat navs, 
+                                dash cams, hands free kits, car stereos, roof
+                                bars and cycle carriers for cars.
+                                I also advised customers on different types of 
+                                oils and service parts for their vehicles.
+                                Along with these tasks I also fitted parts for 
+                                customers vehicles such as bulbs, batteries,
+                                wiper blades, roof bars, roof boxes and cycle 
+                                carriers
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- DOMINOS -->
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Domino's Pizza</h3>
+                            <div class="time"> Jan 2017 - June 2017</div>
+                        </div>
+
+                        <div class="subhead">
+                            Cashier and Chef
+                        </div>
+                        
+                        <div class="detail">
+                            <p>
+                            I firstly started as a Cashier which involved; 
+                            handling money, answering customer phone
+                            calls, resolving customer issues and arranging orders 
+                            for collection and delivery.
+                            I later took on the role of Chef alongside my original 
+                            role which involved working in a
+                            highly stressful environment because of time constraints 
+                            and high volumes of orders.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- END Experience -->
+
+            <!-- START Interests -->
+            <section class="interest section interests-section" id="interests">
+                    <h1 class="section-title"><span class="icon-holder"><i class="fas fa-briefcase"></i></span>Interests</h1>
+                    
+                    <!-- BADMINTON -->
+                    <div class="item">
+                        <div class="meta">
+                            <div class="upper-row">
+                                <h3 class="job-title">TUD Badminton</h3>
+                            </div>
+    
+                            <div class="subhead">
+                                Player and Society Treasurer
+                            </div>
+                            
+                            <div class="detail">
+                                <p>
+                                I was a member of the TUD 
+                                badminton team and was also involved in maintaining of the club, fulfilling the role of treasurer.
+                                During my time on the team we won the Student Sport Ireland League
+                                twice.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="meta">
+                            <div class="upper-row">
+                                <h3 class="job-title">Badminton</h3>
+                            </div>
+
+                            <div class="subhead">
+                                Dublin Leagues
+                            </div>
+                            
+                            <div class="detail">
+                                <p>
+                                I am a member of the South Dublin Badminton team
+                                and have been playing for them the past five years. 
+                                During my time with South Dublin, I have received two 
+                                cup runners up medals.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="meta">
+                                <div class="upper-row">
+                                    <h3 class="job-title">Golf</h3>
+                                </div>
+    
+                                <div class="subhead">
+                                    Beech Park GC
+                                </div>
+                                
+                                <div class="detail">
+                                    <p>
+                                    I am a member of Beech Park Golf Club and am very active playing most weekends. 
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Professional-->
+                    <div class="item">
+                        <div class="meta">
+                            <div class="upper-row">
+                                <h3 class="job-title">Professional</h3>
+                            </div>
+
+                            <div class="subhead">
+                                Stride
+                            </div>
+                            
+                            <div class="detail">
+                                <p>
+                                I attended Strides pre-launch event where I got to 
+                                test out their new social media app
+                                aimed at students and lecturers while it was still 
+                                in the development stage.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- END Interests -->
+
+            </div>   
+        </div>
+    </div>
+ 
+    <footer class="footer">
+        <div class="text-center">
+            <small class="copyright">Curriculum Vitae for James Carroll</small>
+        </div>
+    </footer>
+        
+</body>
+</html> 
+
